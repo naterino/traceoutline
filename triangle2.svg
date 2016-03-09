@@ -1,17 +1,3 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Palace Skateboards Animation</title>
-  <meta name="description" content="SVG Animation of Palace Impossible Triangle">
-
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-
-<header>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -105,24 +91,19 @@
          inkscape:connector-curvature="0"
          id="path2996"
          d="M 206.01143,644.89011 180,592.36218 334.80587,329.97506 458.8021,539.32917 l -51.51778,0 -72.47845,-118.94546 z"
-         style="fill:#fff;stroke:#BEEB9F;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="fill:#fff;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path class="path two"
          sodipodi:nodetypes="ccccccc"
-         style="fill:#fff;stroke:#BEEB9F;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#fff;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 542.06304,592.73361 -25.54,51.69472 -310.34371,0.1116 128.61339,-224.00991 22.98097,37.48151 -74.36961,134.98477 z"
          id="path2998"
          inkscape:connector-curvature="0" />
       <path class="path three"
          sodipodi:nodetypes="ccccccc"
-         style="fill:#fff;stroke:#BEEB9F;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#fff;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 335,329.36218 52,0 155,263 -258.625,0.55357 29.625,-53.55357 146,0 z"
          id="path3002"
          inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>
-</header>
-
-
-</body>
-</html>

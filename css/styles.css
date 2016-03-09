@@ -1,18 +1,78 @@
-.path {
-  stroke-dasharray: 1200;
-  stroke-dashoffset: 1200;
-  animation: dash 5s linear alternate forwards;
+header {
+  margin-top: 25px;
+  text-align: center;
+}
+svg {
+  margin: auto;
+  position: relative;
+
 }
 
 
+.path.one {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: dash1 8s linear alternate forwards;
+}
 
-@keyframes dash {
-  from {
+.path.two {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: dash2 8s linear alternate forwards;
+}
+ 
+.path.three {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: dash3 8s linear alternate forwards;
+}
+
+
+@keyframes dash1 {
+    0% {
     fill: #fff;
     stroke-dashoffset: 1200;
   }
-  to {
+  50% {
+    fill: #fff;
+    stroke-dashoffset: 0;
+  }
+  100% { 
     fill: #79BD8F;
     stroke-dashoffset: 0;
+    stroke:#79BD8F;
+  }
+}
+
+@keyframes dash2 {
+    0% {
+    fill: #fff;
+    stroke-dashoffset: 1200;
+  }
+  50% {
+    fill: #fff;
+    stroke-dashoffset: 0;
+  }
+  100% { 
+    fill:  #00A388;
+    stroke-dashoffset: 0;
+    stroke:#79BD8F;
+  }
+}
+
+@keyframes dash3 {
+  0% {
+    fill: #fff;
+    stroke-dashoffset: 1200;
+  }
+  50% {
+    fill: #fff;
+    stroke-dashoffset: 0;
+    stroke:#BEEB9F;
+  }
+  100% {
+    fill: #BEEB9F;
+    stroke-dashoffset: 0;
+    stroke:#BEEB9F;
   }
 }
